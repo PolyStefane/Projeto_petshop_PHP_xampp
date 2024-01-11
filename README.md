@@ -1,1 +1,1 @@
-# Projeto_petshop_PHP_xampp
+Projeto criado em PHP para o terceiro semestre da faculdade, na matéria de programação web 2. O projeto foi criado com localhost pelo xampp e já possui uma base de dados (utilizei também o phpMyAdmin em algumas partes). 

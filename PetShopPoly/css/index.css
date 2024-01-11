@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,100;1,300&family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Candara', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(193, 236, 195);
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    justify-content: center;
+}
+body table, body tr, body th, body tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+body table tr:nth-child(odd){
+    background-color: rgb(221, 221, 221);
+}
+body table tr td, body table tr th{
+    padding: 10px;
+}
+
+body table{
+    width: 100%;
+}
+
+/*
+body table tr:hover td{
+    font-weight: bold;
+} */
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 0;
+    height: min-content;
+}
+form h1 {
+    margin: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+form button{
+    background-color: #6dbb6d;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    transition: 0.5s;
+}
+
+form button:hover{
+    transition: 0.5s;
+    background-color: #5e9b5e;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color:#000000;
+}
+h2{
+    text-align: center;
+    color:#000000;
+    margin: 20px auto;
+}
+
+.voltar{
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.voltar img{
+    height: 60px;
+    width: 60px;
+}
+
+.voltar:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+}
